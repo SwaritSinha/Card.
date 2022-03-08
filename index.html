@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card game</title>
+</head>
+<body>
+<div id="one">
+    <img src="./card.jpg">
+</div>
+
+<div id="two">
+    <img src="./card.jpg">
+</div>
+
+<div id="three">
+    <img src="./card.jpg">
+</div>
+
+<div id="four">
+    <img src="./card.jpg">
+</div> 
+
+<div id="five">
+    <img src="./card.jpg">
+</div>
+
+<div id="six">
+    <img src="./card.jpg">
+</div>
+</body>
+</html>
+<style>
+body{
+background-color: black;
+}
+img {
+    float: left;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+ padding-left:80px;
+padding-right:80px;
+  margin-top:30px;
+ margin-bottom:30px
+}
+</style>
+<script>
+    alert("It's a one chance game")
+    alert("You can play olny 1 time")
+    //1
+var one=document.getElementById("one");
+one.onclick=()=>{
+    location.href="danger.html"
+    }
+//2
+var two=document.getElementById("two");
+two.onclick=()=>{
+    location.href="danger.html"
+    }
+//3
+var three=document.getElementById("three");
+three.onclick=()=>{
+    location.href="danger.html"
+    }
+//4
+var four=document.getElementById("four");
+four.onclick=()=>{
+    location.href="danger.html"
+    }
+//5
+var five=document.getElementById("five");
+five.onclick=()=>{
+    location.href="danger.html"
+    }
+//6
+var six=document.getElementById("six");
+six.onclick=()=>{
+    location.href="win.html"
+    }
+</script>
